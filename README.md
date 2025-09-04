@@ -25,7 +25,7 @@ In this step, we will configure important components within osTicket to ensure i
 - SLAs (Service Level Agreements): Configure SLAs to ensure timely ticket resolutions based on severity.
 - Departments: Create various departments (e.g., IT, Customer Support) to handle tickets based on the type of request.
 - Teams: Configure teams that handle specific types of support, such as Level I or Level II support.
-- Agents (Workers): Add agents who will manage and resolve tickets.
+- Agents (Employees): Add agents who will manage and resolve tickets.
 - Users (Customers): Add the users who will submit tickets to the help desk.
 - Help Desk Topics: Define help topics to categorize tickets based on the issues users may encounter.
 
@@ -192,7 +192,7 @@ Here we can taylor the help topic to match is severity by assigning priority lev
 
 <p>
 
-We successfully transformed the osTicket system from its initial installation to a fully operational help desk capable of managing real-world support tickets. By configuring key components such as roles, departments, teams, agents, users, and SLA's we ensured that the system is well-structured for efficient ticket management. Setting up Service Level Agreements (SLAs) allowed us to prioritize and resolve issues within appropriate timeframes based on their severity, while help topics ensured proper categorization and routing of tickets to the correct departments.
+We successfully configured the osTicket system from its initial installation to a fully operational help desk capable of managing real-world support tickets. By configuring key components such as roles, departments, teams, agents, users, and SLA's we ensured that the system is well-structured for efficient ticket management. Setting up Service Level Agreements (SLAs) allowed us to prioritize and resolve issues within appropriate timeframes based on their severity, while help topics ensured proper categorization and routing of tickets to the correct departments.
 
 This allows for improved operational efficiency and also enhances customer satisfaction through timely and effective issue resolution.
 
