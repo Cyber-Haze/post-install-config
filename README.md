@@ -8,7 +8,7 @@ This tutorial provides a detailed overview of the post-installation configuratio
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Cloud Compute, used to host the osTicket installation)
+- Microsoft Azure (Virtual Machines/Cloud Compute)
 - Remote Desktop: Secure access to the virtual machine hosting osTicket for configuration and management purposes.
 - Internet Information Services (IIS) Web server software that hosts the osTicket web application on Windows.
 
@@ -69,12 +69,10 @@ For this showcase we will create the following SLA's
 Admin Panel -> Manage -> SLA
 - Sev-A (Grace Period: 1 hour, Schedule: 24/7) coverage for critical system issues.
 - Sev-B (Grace Period: 4 hours, Schedule: 24/7) overage for high-priority issues e.g. software failures.
-- Sev-C (Grace Period: 8 hours, Business Hours)business hours coverage for less critical issues, e.g password resets.
+- Sev-C (Grace Period: 8 hours, Business Hours) business hours coverage for less critical issues, e.g password resets.
 
 </p>
 <br />
-
-
 
 <h2>Configure Departments</h2>
 <h3> Here we can configure Ticket Visibility, Help Desk vs SysAdmins, vs Networking
@@ -189,4 +187,16 @@ Here we can also configure account status, access privileges, Teams and Departme
 Here we can taylor the help topic to match is severity by assigning priority levels, SLA's, Teams, and departments
 
 </p>
+
+<h2>In Conclusion</h2>
+
+<p>
+
+We successfully transformed the osTicket system from its initial installation to a fully operational help desk capable of managing real-world support tickets. By configuring key components such as roles, departments, teams, agents, users, and SLA's we ensured that the system is well-structured for efficient ticket management. Setting up Service Level Agreements (SLAs) allowed us to prioritize and resolve issues within appropriate timeframes based on their severity, while help topics ensured proper categorization and routing of tickets to the correct departments.
+
+This allows for improved operational efficiency and also enhances customer satisfaction through timely and effective issue resolution.
+
+</p>
+
+
 
