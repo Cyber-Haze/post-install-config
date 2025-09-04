@@ -67,9 +67,9 @@ To Create
 For this showcase we will create the following SLA's
   
 Admin Panel -> Manage -> SLA
-- Sev-A (Grace Period: 1 hour, Schedule: 24/7)
-- Sev-B (Grace Period: 4 hours, Schedule: 24/7)
-- Sev-C (Grace Period: 8 hours, Business Hours)
+- Sev-A (Grace Period: 1 hour, Schedule: 24/7) coverage for critical system issues.
+- Sev-B (Grace Period: 4 hours, Schedule: 24/7) overage for high-priority issues e.g. software failures.
+- Sev-C (Grace Period: 8 hours, Business Hours)business hours coverage for less critical issues, e.g password resets.
 
 </p>
 <br />
@@ -136,11 +136,57 @@ Here we can also manage password policies and login requirements
 
 - Admin Panel -> Agents -> Add New
   - Jane (Dept: SysAdmins)
-  - John (Dept: Support)
-  - Jeff (Dept: Support)
+  - John (Dept: Support, Team: Level 1 Support)
+  - Jeff (Dept: SysAdmins, Team: Online Banking)
   
 
 
-Here we can also configure Status(Roles), Access privileges, Teams and Departments. Alongside setting first login password policies and resetting passwords.
+Here we can also configure account status, access privileges, Teams and Departments. Alongside setting first login password policies and resetting passwords.
 </p>
 <br />
+
+<h2>Configure Users (Customers)</h2>
+<br />
+
+<p>
+<img width="959" height="110" alt="image" src="https://github.com/user-attachments/assets/bd25c6e6-7072-4548-831c-2360ad08e4f7" />
+<img width="958" height="341" alt="image" src="https://github.com/user-attachments/assets/16841b03-19fc-43fb-bb4f-b670c3b54245" />
+</p>
+
+<p>
+
+Add users like "Karen" and "Ken" who will be able to log into the user portal to submit tickets for support.
+
+- Navigate to: Agent Panel -> Users -> Add New
+  - Karen
+  - Ken
+
+
+Here we can also configure account status, access privileges, Teams and Departments. Alongside setting first login password policies and resetting passwords.
+</p>
+<br />
+
+<h2>Configure Help Topic</h2>
+<h3> Help topics categorize the types of support requests users may submit. Proper categorization helps route tickets to the correct team or department which in turn helps with assigning SLA's
+</h3>
+<br />
+
+<p>
+<img width="954" height="617" alt="Screenshot 2025-09-04 011233" src="https://github.com/user-attachments/assets/dfe8561c-bd13-4600-90da-1393fb9f7266" />
+<img width="613" height="431" alt="Screenshot 2025-09-04 011014" src="https://github.com/user-attachments/assets/18e06cfd-4b98-4262-a05c-35ac054e3b85" />
+</p>
+
+<p> 
+
+- Navigate to: Admin Panel -> Manage -> Help Topics
+- Add common help topics such as:
+  - Business Critical Outage
+  - Personal Computer Issues
+  - Equipment Request
+  - Password Reset
+  - Other
+
+Here we can taylor the help topic to match is severity by assigning priority levels, SLA's, Teams, and departments
+
+</p>
+
